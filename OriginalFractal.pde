@@ -41,8 +41,8 @@ public void Fractal(int x, int y, int siz, int hey) {
   if (siz>25) {
     Fractal(x-200, y, siz/2, hey);
     Fractal(x+200, y, siz/2, hey);
-    Fractal(x-90, y+100, siz/2, hey);
-    Fractal(x+90, y-100, siz/2, hey);
+    Fractal(x-100, y+130, siz/2, hey);
+    Fractal(x+100, y-130, siz/2, hey);
   }
 }
 
