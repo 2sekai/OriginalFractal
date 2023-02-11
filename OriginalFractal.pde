@@ -1,6 +1,6 @@
 public void setup() {
   background(200, 156, 196);
-  size(700, 700);
+  size(650, 650);
   rectMode(CENTER);
   frameRate(60);
 }
